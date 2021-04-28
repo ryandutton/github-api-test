@@ -13,4 +13,4 @@ curl \
   -X POST \
   -H "Accept: application/vnd.github.v3+json" \
   https://api.github.com/repos/octocat/hello-world/pulls \
-  -d '{"head":"main","base":"test-branch-2"}'
+  -d '{"head":"test-branch-2","base":"main"}'
